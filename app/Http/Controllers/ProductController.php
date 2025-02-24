@@ -40,6 +40,6 @@ class ProductController extends Controller
 
         $allProducts = [$product1, $product2, $product3, $product4, $product5];
 
-        return view('products', ['products' => $allProducts]);
+        return view('animemerch', ['products' => $allProducts]);
     }
 }
